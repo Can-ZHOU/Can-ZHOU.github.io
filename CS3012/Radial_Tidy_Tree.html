@@ -7,14 +7,25 @@
 
 <body>
     <div class="sidebar">
-        <a href="index.html">Home</a>
+        <a href="index.html">About</a>
+        <a href="Zoomable_Sunburst.html">Zoomable Sunburst</a>
         <a class="active" href="Radial_Tidy_Tree.html">Radial Tidy Tree</a>
-        <a href="Pie_Chart.html">Pie Chart</a>
+        <a href="Pie_Chart_Sum.html">Charts - Overview</a>
+        <a href="Pie_Chart_Star_Count.html">Charts - Star Count</a>
+        <a href="Pie_Chart_Fork_Count.html">Charts - Fork Count</a>
+        <a href="Pie_Chart_Disk_Usage.html">Charts - Disk Usage</a>
     </div>
 
-    <!-- Page content -->
     <div class="content">
-        <div id="viz"></div>
+        <div class="row">
+        <div class="column_s1">
+            <div id="viz"></div>
+        </div>
+        <div class="column_s2">
+            <h2>&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp Radial Tidy Tree</h2>
+            <ul><li>The top ten repos of D3 are shown.</li><li>Then display the latest issue information of each repo.</li><li>For each issue, it describes: <ul><li>The issue number.</li><li>Whether issue is locked?</li><li>Issue current state.</li><li>Who submitted it.</li></ul></li></ul>
+        </div>
+        </div>
         <script src="Radial_Tidy_Tree_JSON.js"> </script>
     </div>
     <script type="text/javascript" src="https://d3js.org/d3.v3.min.js"></script>

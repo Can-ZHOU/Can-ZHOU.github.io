@@ -35,7 +35,7 @@ setTimeout(function () {
             }
         }
     });
-}, 1500);
+}, 1000);
 
 setTimeout(function () {
     var chart = c3.generate({
@@ -55,7 +55,47 @@ setTimeout(function () {
             }
         }
     });
+}, 2000);
+
+setTimeout(function () {
+    var chart = c3.generate({
+        bindto: '#chart_d',
+        data: {
+            json: year_p,
+            type : 'pie',
+            onclick: function (d, i) { console.log("onclick", d, i); },
+            onmouseover: function (d, i) { console.log("onmouseover", d, i); },
+            onmouseout: function (d, i) { console.log("onmouseout", d, i); }
+        },
+        donut: {
+            label: {
+                format: function (value, ratio, id) {
+                    return d3.format('')(value);
+                }
+            }
+        }
+    });
 }, 3000);
+
+setTimeout(function () {
+    var chart = c3.generate({
+        bindto: '#chart_d',
+        data: {
+            json: month_p,
+            type : 'pie',
+            onclick: function (d, i) { console.log("onclick", d, i); },
+            onmouseover: function (d, i) { console.log("onmouseover", d, i); },
+            onmouseout: function (d, i) { console.log("onmouseout", d, i); }
+        },
+        donut: {
+            label: {
+                format: function (value, ratio, id) {
+                    return d3.format('')(value);
+                }
+            }
+        }
+    });
+}, 4000);
 
 setTimeout(function () {
     var chart = c3.generate({
@@ -75,7 +115,7 @@ setTimeout(function () {
             }
         }
     });
-}, 4500);
+}, 5000);
 
 setTimeout(function () {
     var chart = c3.generate({
@@ -115,7 +155,47 @@ setTimeout(function () {
             }
         }
     });
-}, 7500);
+}, 7000);
+
+setTimeout(function () {
+    var chart = c3.generate({
+        bindto: '#chart_d',
+        data: {
+            json: year_p,
+            type : 'donut',
+            onclick: function (d, i) { console.log("onclick", d, i); },
+            onmouseover: function (d, i) { console.log("onmouseover", d, i); },
+            onmouseout: function (d, i) { console.log("onmouseout", d, i); }
+        },
+        donut: {
+            label: {
+                format: function (value, ratio, id) {
+                    return d3.format('')(value);
+                }
+            }
+        }
+    });
+}, 8000);
+
+setTimeout(function () {
+    var chart = c3.generate({
+        bindto: '#chart_d',
+        data: {
+            json: month_p,
+            type : 'donut',
+            onclick: function (d, i) { console.log("onclick", d, i); },
+            onmouseover: function (d, i) { console.log("onmouseover", d, i); },
+            onmouseout: function (d, i) { console.log("onmouseout", d, i); }
+        },
+        donut: {
+            label: {
+                format: function (value, ratio, id) {
+                    return d3.format('')(value);
+                }
+            }
+        }
+    });
+}, 9000);
 
 var chart = c3.generate({
     bindto: '#chart',
@@ -139,7 +219,7 @@ setTimeout(function () {
             onmouseout: function (d, i) { console.log("onmouseout", d, i); }
         }
     });
-}, 1500);
+}, 1000);
 
 setTimeout(function () {
     var chart = c3.generate({
@@ -152,7 +232,33 @@ setTimeout(function () {
             onmouseout: function (d, i) { console.log("onmouseout", d, i); }
         }
     });
+}, 2000);
+
+setTimeout(function () {
+    var chart = c3.generate({
+        bindto: '#chart',
+        data: {
+            json: year_p,
+            type : 'pie',
+            onclick: function (d, i) { console.log("onclick", d, i); },
+            onmouseover: function (d, i) { console.log("onmouseover", d, i); },
+            onmouseout: function (d, i) { console.log("onmouseout", d, i); }
+        }
+    });
 }, 3000);
+
+setTimeout(function () {
+    var chart = c3.generate({
+        bindto: '#chart',
+        data: {
+            json: month_p,
+            type : 'pie',
+            onclick: function (d, i) { console.log("onclick", d, i); },
+            onmouseover: function (d, i) { console.log("onmouseover", d, i); },
+            onmouseout: function (d, i) { console.log("onmouseout", d, i); }
+        }
+    });
+}, 4000);
 
 setTimeout(function () {
     var chart = c3.generate({
@@ -165,7 +271,7 @@ setTimeout(function () {
             onmouseout: function (d, i) { console.log("onmouseout", d, i); }
         }
     });
-}, 4500);
+}, 5000);
 
 setTimeout(function () {
     var chart = c3.generate({
@@ -191,7 +297,33 @@ setTimeout(function () {
             onmouseout: function (d, i) { console.log("onmouseout", d, i); }
         }
     });
-}, 7500);
+}, 7000);
+
+setTimeout(function () {
+    var chart = c3.generate({
+        bindto: '#chart',
+        data: {
+            json: year_p,
+            type : 'donut',
+            onclick: function (d, i) { console.log("onclick", d, i); },
+            onmouseover: function (d, i) { console.log("onmouseover", d, i); },
+            onmouseout: function (d, i) { console.log("onmouseout", d, i); }
+        }
+    });
+}, 8000);
+
+setTimeout(function () {
+    var chart = c3.generate({
+        bindto: '#chart',
+        data: {
+            json: month_p,
+            type : 'donut',
+            onclick: function (d, i) { console.log("onclick", d, i); },
+            onmouseover: function (d, i) { console.log("onmouseover", d, i); },
+            onmouseout: function (d, i) { console.log("onmouseout", d, i); }
+        }
+    });
+}, 9000);
 
 var chart_0 = c3.generate({
     bindto: '#chart_0',
@@ -279,3 +411,4 @@ var chart_2 = c3.generate({
         onmouseout: function (d, i) { console.log("onmouseout", d, i); }
     }
 });
+

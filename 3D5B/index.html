@@ -1,6 +1,6 @@
 <!doctype html>
 <html lang="en">
-  <head>
+<head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -8,31 +8,70 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 
-    <link rel="stylesheet" href="css/3d5b.css">
+    <link rel="stylesheet" href="css/bsadmin.css">
+    <link rel="stylesheet" href="css/fontawesome.min.css">
     <title>CS3D5B</title>
-  </head>
-  <body>
-<nav >
-  <div class="nav nav-tabs" id="nav-tab" role="tablist">
-    <a class="nav-item nav-link active" id="nav-home-tab" data-toggle="tab" href="#nav-home" role="tab" aria-controls="nav-home" aria-selected="true"><h4>Home</h4></a>
-    <a class="nav-item nav-link" id="nav-profile-tab" data-toggle="tab" href="#nav-profile" role="tab" aria-controls="nav-profile" aria-selected="false"><h4>Who did what</h4></a>
-    <a class="nav-item nav-link" id="nav-contact-tab" data-toggle="tab" href="#nav-contact" role="tab" aria-controls="nav-contact" aria-selected="false"><h4>Experiences</h4></a>
-  </div>
-</nav>
-<div class="tab-content" id="nav-tabContent">
-  <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
-    <iframe width="910" height="512" src="https://www.youtube.com/embed/v_B3qkp4nO4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-  </div>
-  <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
-  </div>
-  <div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab">
-  </div>
-</div>
+</head>
+<body>
 
+<nav class="navbar navbar-expand navbar-dark bg-primary navbar-fixed-top">
+    <a class="navbar-brand" href="#"><i class="fa fa-code-branch"></i> CS3D5B Group 2</a>
+</nav>
+
+<div class="d-flex">
+    <nav class="sidebar bg-dark">
+        <ul class="list-unstyled">
+            <li>
+                <a href="#submenu1" data-toggle="collapse"><i class="fa fa-fw fa-address-card"></i>Home</a>
+                <ul id="submenu1" class="list-unstyled collapse">
+                    <li><a href="#app">What this app is for</a></li>
+                    <li><a href="#vedio">Vedio Demo</a></li>
+                    <li><a href="#member">Group Member</a></li>
+                    <li><a href="#repo">GitHub Repo</a></li>
+                </ul>
+            </li>
+            <li><a href="#done"><i class="fa fa-fw fa-link"></i> The team - who did what (at high level)</a></li>
+            <li><a href="#more"><i class="fa fa-fw fa-link"></i> What we would do with it if we had more time</a></li>
+            <li><a href="#experiences"><i class="fa fa-fw fa-link"></i> Experiences</a></li>
+        </ul>
+    </nav>
+
+<div class="content p-4">
+
+<h2>CS3D5B Android Project -- Group 2</h2>
+<div id="app"><h3 class="links">what this app is for:</h3></div>
+<div id="vedio"><h3  class="links"> Vedio Demo:</h3></div>
+<div style="text-align: center;">
+<iframe width="520" height="310" src="https://www.youtube.com/embed/v_B3qkp4nO4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+<div id="member"><h3 class="links">Group member:</h3></div>
+<p>Can, Cormac, Malay, Rohan, Shrey, Tom, Ujjawal, Vishant</p>
+<div id="repo"><h3 class="links"Project GitHub Repo:</h3></div>
+
+<div id="done"><h3 class="links">The team - who did what (at high level):</h3></div>
+
+<ul><li><strong>Cormac Doyle</strong><br/>My role in this team was the role of secretary and to work with the frontend design team on layouts for the app. As secretary I attended and wrote minute reports on every meeting since the start of the project. These reports consisted of duration, attendance, issues and ideas discussed, assigned tasks, and a date and time for the next meeting. All these reports were stored in a google doc which every member had access to. I also designed the profile page layout for the current version of the app.</li><li><strong>Ujjawal Aggarwal</strong>  <ul><li>Managed Frontend for Booking System (T Life) and Backend for Time Zone Planner (Huddle) app</li><li>Booking System (worked on Login, and profiles pages ) and Huddle (worked on Home activity, Sign Up activity and Login Activity) and Group Icon</li><li>Firebase Authentication and Database integration</li><li>Also, added some basic functionalities like Reset password, remember me and Uploading Image.</li><li>Helped other teammates to design the User Interface</li></ul></li><li><strong>Rohan Taneja</strong>  <ul><li>Managed backend for both Booking System (T Life) and Time Zone Planner (Huddle) app</li><li>BookingSystem (worked on BookingActivity) and Huddle (worked on Dashboard for creating and joining meeting activity)</li><li>Firebase implementation and structure for data storage</li><li>Also, managed few layouts while implementation</li></ul></li><li><strong>Vishant Mittal</strong><br/>I was a part of the front end team for this project.I worked on a major part of the login, the sign up and the join meeting pages. I mainly designed some of the layouts of the app. I even designed part of the theme used in the app.</li></ul>
+
+<div id="more"><h3 class="links">What we would do with it if we had more time:</h3></div>
+
+<ul><li>bababa</li><li>bababa</li></ul>
+
+<div id="experiences"><h3 class="links">Experiences:</h3></div>
+
+<ul><li><strong>Cormac Doyle</strong><br/>I found what worked well with the team was the GitHub project with Android Studio. All members were able to work on their respective branches and then commit it to the github project for all members to view. Android Studio is also easy to use and very compatible with GitHub. </li><li><strong>Rohan Taneja</strong>  <ul><li>Learned working in Studio IDE</li><li>Learned how to use version control applications like GitHub to manage the projects easily and debug issues faced.</li><li>New functionalities in Java programming and their application</li><li>Debugged the backend implementation and fixing issues faced by the team</li><li>Working with a diverse team having discreet knowledge</li><li>Handling obstacles faced working remotely in different time zones</li><li>Collaborating with various team members and uniform work distribution</li></ul></li><li><p><strong>Shrey Wahi</strong><br/>This project helped me a lot with the working of an android app. I got to learn the basics of making and designing an android application and also got to learn java from online sources and also the group members.
+It was all the teamwork which made it possible for us to complete the app even after being in different time zones. It was a great experience on how all the members of the group discussed their ideas on Zoom.
+Also I found the working of GitHub and how a team can manage to work on the same thing at the same time using GitHub. I also got to learn how easy it is to use GitHub with android studios.
+I worked on some of the pages for the frontend design. And also collaborated some of the pages with group members.</p></li><li><p><strong>Ujjawal Aggarwal</strong>  </p><ul><li>Learned how to work with GitHub.</li><li>Learned to tackle the problems of timezone, to collaborate with everyone and respect their ideas.</li><li>Learned a lot about Java Concepts and functionalities.</li><li>Learned how to integrate the Firebase with an Android Application</li><li>Debugging the issues coming up the project</li><li><p>Learned basic photoshop skills</p></li></ul></li><li><p><strong>Vishant Mittal</strong><br/>I have worked on many projects individually and in groups but this was my first experience working in a group for this long with these many members. Obviously, I got to know about others’ perspectives and some of their thought process which helped refine my ideas.
+I got to know about various platforms like android studio and github. It was mostly just google your tasks and get them working. This taught me a lot of new stuff.
+This project involved a lot of our time working remotely due to the ongoing pandemic. Video conferencing platforms like zoom and whatsapp were used to collaborate for the project.
+I think that our team successfully completing the project in spite of being in different parts of the world is evidence to the fact that the primary goal of team work was achieved.</p></li></ul>
+
+</div>
+</div>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-  </body>
+</body>
 </html>
